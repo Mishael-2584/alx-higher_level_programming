@@ -10,4 +10,4 @@ if __name__ == "__main__":
             else:
                 print(f"{(total - 1):d} arguments:")
             for i in range(1, total):
-                print(f"{i:d}: {argv[i]}")
+                print(f"{i:d}: {argv[i]:s}")
